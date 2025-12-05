@@ -1,4 +1,4 @@
-NetCDF TimeRemapper for ParaView
+NetCDF TimeRemapper for ParaView:
 A Python Programmable Filter for ParaView that replaces the original time axis of a NetCDF dataset with custom time values read from an external text file.
 
 ParaView uses a single global timeline. When multiple NetCDF files have the same number of time steps but different time values or units, they cannot be animated in sync.
