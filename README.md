@@ -6,11 +6,11 @@ E.g., one uses “days since 2000-01-01”, another “seconds since 2001-12-31�
  
 This tool remaps all datasets to the exact same time values from a user-defined list, enabling simultaneous animation.
 It supports BCE dates (negative years).
-It also adds a human-readable current_date array for easy timestamp display in the 3D viewport.
+It also adds a human-readable "current_date" array for easy timestamp display in the 3D viewport.
 
 The example NetCDF files used in this tutorial are courtesy Clemens Schannwell (Max-Planck-Institut für Meteorologie, Hamburg).
 
-A video tutorial that follows the PDF (NetCDF_TimeRemapper_Tutorial.pdf) step-by-step is available on YouTube:
+A video tutorial that follows the PDF (NetCDF_TimeRemapper_Tutorial.pdf) step-by-step is available on YouTube: 
 https://youtu.be/hl2EThO77Ec
 
 
