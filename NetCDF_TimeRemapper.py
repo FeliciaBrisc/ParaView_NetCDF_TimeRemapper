@@ -1,5 +1,5 @@
 #
-# Code by Felicia Brisc (University of Hamburg), distributed under a GNU General Public License v3.0
+# Code by Felicia Brisc (University of Hamburg)
 # NetCDF TimeRemapper for ParaView
 # Copyright (c) 2025 Felicia Brisc
 # License: BSD 3-Clause (see LICENSE file for details)
@@ -217,3 +217,4 @@ date_array.SetName("current_date")
 #We created in RequestInformation the self.custom_times_annotation list with dates in the '-4000-01-01 00:00:00' format
 date_array.InsertNextValue(self.custom_times_annotation[idx])
 output.GetFieldData().AddArray(date_array)
+
